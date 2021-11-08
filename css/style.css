@@ -1,0 +1,65 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+
+    color: white;
+
+    background-color: hsl(257, 40%, 49%);
+    background-image: url('/images/bg-desktop.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    padding: 30px 50px 30px 50px;
+}
+
+h1{
+    font-family: 'Poppins', sans-serif;
+}
+
+header img{
+    width: 170px;
+}
+
+.svg{
+    max-width: 250px;
+    max-height: 400px;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+
+    padding-top: 50px;
+}
+
+.section__call-to-action{
+    display: flex;
+    flex-direction: column;
+    
+    padding-left: 70px;
+    
+    width: 460px;
+}
+
+.section__call-to-action h1{
+    line-height: 75%;
+}
+
+button{
+    width: 170px;
+
+    padding: 15px 18px 15px 18px;
+
+    background-color: white;
+    color: hsl(257, 40%, 49%);
+
+    border-radius: 70px;
+    border: none;
+
+    box-shadow: 0px 2px 5px 2px hsl(257, 40%, 29%);
+}
+
+.svg-mockup{
+    max-width: 600px;
+}
